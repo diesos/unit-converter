@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Unit Converter</title>
+		<meta name="description" content="Simple converter using JS/HTML/CSS">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+		<div class="head-container">
+			<h1>Metric/Imperial Unit Conversion</h1>
+			<div  id="unit-to-convert"></div>
+			<input class="unit-box" placeholder="type here"/>
+			<button class="convert-btn">Convert</button>
+			<p class="error"></p>
+		</div>
+		<div class="result-container">
+			<div class="result-box">
+				<h2>Length (Meter/Feet)</h2>
+				<p class="converted"></p>
+
+			</div>
+			<div class="result-box">
+				<h2>Volume (Liters/Gallons)</h2>
+				<p class="convert-vol"></p>
+			</div>
+			<div class="result-box">
+				<h2>Mass (Kilograms/Pounds)</h2>
+				<p class="convert-mass"></p>
+			</div>
+		</div>
+		<script src="script.js" async defer></script>
+	</body>
+	<footer>Training project by Omer Ozturk</footer>
+</html>
